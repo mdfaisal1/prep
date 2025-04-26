@@ -1,0 +1,244 @@
+{
+    "months": [
+      {
+        "month": 1,
+        "focus": "JavaScript Mastery & C++ Fundamentals",
+        "daily": {
+          "js": { "lc": 3, "projects": 0.2, "studyHours": 1 },
+          "cpp": { "lc": 2, "projects": 0.2, "studyHours": 2 },
+          "design": 0
+        },
+        "resources": {
+          "js": ["Eloquent JavaScript", "You Don't Know JS"],
+          "cpp": ["C++ Primer", "Learn CPP"],
+          "articles": ["Meta Engineering Blog"]
+        },
+        "milestones": [
+          "100 LeetCode Easy (JS)",
+          "50 LeetCode Easy (C++)",
+          "CLI Calculator (C++)",
+          "Todo List (JS)"
+        ]
+      },
+      {
+        "month": 2,
+        "focus": "Core Data Structures Implementation",
+        "daily": {
+          "js": { "lc": 4, "projects": 0.3, "studyHours": 1 },
+          "cpp": { "lc": 3, "projects": 0.3, "studyHours": 2 },
+          "design": 1
+        },
+        "resources": {
+          "js": ["JavaScript Data Structures", "Node.js Design Patterns"],
+          "cpp": ["Data Structures in C++", "STL Documentation"],
+          "videos": ["C++ Memory Management"]
+        },
+        "milestones": [
+          "Implement Array, Stack, Queue (JS & C++)",
+          "150 LeetCode Medium",
+          "JSON Parser (JS)",
+          "Memory Manager (C++)"
+        ]
+      },
+      {
+        "month": 3,
+        "focus": "Algorithms & OOP Patterns",
+        "daily": {
+          "js": { "lc": 4, "projects": 0.3, "studyHours": 1 },
+          "cpp": { "lc": 3, "projects": 0.3, "studyHours": 2 },
+          "design": 1
+        },
+        "resources": {
+          "js": ["JavaScript Algorithms", "Design Patterns in JS"],
+          "cpp": ["Effective C++", "C++ Design Patterns"],
+          "practice": ["LeetCode Patterns"]
+        },
+        "milestones": [
+          "Master Sorting Algorithms",
+          "200 LeetCode Problems",
+          "Algorithm Visualizer (JS)",
+          "OOP Bank System (C++)"
+        ]
+      },
+      {
+        "month": 4,
+        "focus": "Advanced C++ Systems Programming",
+        "daily": {
+          "js": { "lc": 3, "projects": 0.2, "studyHours": 1 },
+          "cpp": { "lc": 4, "projects": 0.4, "studyHours": 3 },
+          "design": 1
+        },
+        "resources": {
+          "cpp": ["C++ Concurrency in Action", "Effective Modern C++"],
+          "tools": ["Valgrind", "GDB"],
+          "articles": ["Meta C++ Best Practices"]
+        },
+        "milestones": [
+          "Understand Smart Pointers",
+          "100 C++ LeetCode",
+          "Thread Pool (C++)",
+          "Load Balancer (JS)"
+        ]
+      },
+      {
+        "month": 5,
+        "focus": "JavaScript Runtime & Optimization",
+        "daily": {
+          "js": { "lc": 4, "projects": 0.4, "studyHours": 2 },
+          "cpp": { "lc": 2, "projects": 0.2, "studyHours": 1 },
+          "design": 1
+        },
+        "resources": {
+          "js": ["V8 Internals", "Node.js Performance"],
+          "tools": ["Chrome DevTools", "Clinic.js"],
+          "videos": ["JS Event Loop Deep Dive"]
+        },
+        "milestones": [
+          "Master Event Loop",
+          "WASM Image Processor",
+          "JS Benchmark Tool",
+          "300 LeetCode Problems"
+        ]
+      },
+      {
+        "month": 6,
+        "focus": "Distributed Systems Basics",
+        "daily": {
+          "js": { "lc": 3, "projects": 0.3, "studyHours": 1 },
+          "cpp": { "lc": 3, "projects": 0.4, "studyHours": 2 },
+          "design": 2
+        },
+        "resources": {
+          "books": ["Designing Data-Intensive Applications"],
+          "articles": ["Meta TAO Paper", "Memcache Architecture"],
+          "tools": ["Docker", "Kubernetes"]
+        },
+        "milestones": [
+          "Mini Redis (C++)",
+          "Distributed Counter (JS)",
+          "50 System Designs",
+          "400 LeetCode Problems"
+        ]
+      },
+      {
+        "month": 7,
+        "focus": "Meta Infrastructure Patterns",
+        "daily": {
+          "js": { "lc": 2, "projects": 0.3, "studyHours": 1 },
+          "cpp": { "lc": 4, "projects": 0.5, "studyHours": 3 },
+          "design": 2
+        },
+        "resources": {
+          "meta": ["TAO Architecture", "FBThrift Documentation"],
+          "cpp": ["Folly Library", "Proxygen"],
+          "practice": ["Meta Tagged LeetCode"]
+        },
+        "milestones": [
+          "TAO-like Cache (C++)",
+          "Thrift Server (JS)",
+          "100 Meta-tagged LC",
+          "20 Meta System Designs"
+        ]
+      },
+      {
+        "month": 8,
+        "focus": "Concurrency Mastery",
+        "daily": {
+          "js": { "lc": 2, "projects": 0.2, "studyHours": 1 },
+          "cpp": { "lc": 5, "projects": 0.5, "studyHours": 3 },
+          "design": 1
+        },
+        "resources": {
+          "cpp": ["C++ Concurrency", "Lock-free Programming"],
+          "js": ["Worker Threads", "Cluster Module"],
+          "tools": ["Thread Sanitizer"]
+        },
+        "milestones": [
+          "Concurrent Web Server (C++)",
+          "Stock Trading Sim (JS)",
+          "150 Concurrency Problems",
+          "600 LeetCode Problems"
+        ]
+      },
+      {
+        "month": 9,
+        "focus": "Performance Tuning",
+        "daily": {
+          "js": { "lc": 2, "projects": 0.2, "studyHours": 1 },
+          "cpp": { "lc": 4, "projects": 0.4, "studyHours": 2 },
+          "design": 1
+        },
+        "resources": {
+          "cpp": ["Performance Optimization", "SIMD Programming"],
+          "js": ["V8 Optimization Tricks", "WebAssembly"],
+          "tools": ["Perf", "Flamegraph"]
+        },
+        "milestones": [
+          "High-frequency Trading (C++)",
+          "Real-time Analytics (JS)",
+          "10x Speed Improvements",
+          "700 LeetCode Problems"
+        ]
+      },
+      {
+        "month": 10,
+        "focus": "Behavioral & Mock Interviews",
+        "daily": {
+          "js": { "lc": 1, "projects": 0.1, "studyHours": 0.5 },
+          "cpp": { "lc": 1, "projects": 0.1, "studyHours": 0.5 },
+          "design": 2,
+          "mocks": 1
+        },
+        "resources": {
+          "behavioral": ["Meta Leadership Principles", "STAR Method"],
+          "practice": ["Pramp", "Interviewing.io"],
+          "articles": ["Meta Interview Guide"]
+        },
+        "milestones": [
+          "20 STAR Stories",
+          "50 Mock Interviews",
+          "Portfolio Website",
+          "5 OSS Contributions"
+        ]
+      },
+      {
+        "month": 11,
+        "focus": "Final Revisions",
+        "daily": {
+          "js": { "lc": 2, "projects": 0.1, "studyHours": 1 },
+          "cpp": { "lc": 2, "projects": 0.1, "studyHours": 1 },
+          "design": 2
+        },
+        "resources": {
+          "review": ["Weak Area Analysis", "Language Specifics"],
+          "practice": ["Timed LeetCode", "Design Doc Writing"]
+        },
+        "milestones": [
+          "200 Timed LC",
+          "30 Design Docs",
+          "Production-ready Project",
+          "CI/CD Pipeline"
+        ]
+      },
+      {
+        "month": 12,
+        "focus": "Interview Simulation",
+        "daily": {
+          "js": { "lc": 1, "projects": 0, "studyHours": 0.5 },
+          "cpp": { "lc": 1, "projects": 0, "studyHours": 0.5 },
+          "design": 1,
+          "mocks": 2
+        },
+        "resources": {
+          "final": ["Meta Code Review Guide", "On-site Simulation"],
+          "practice": ["Full-day Mocks", "Whiteboard Practice"]
+        },
+        "milestones": [
+          "100 Mock Interviews",
+          "Meta-style Code Review",
+          "On-site Simulation",
+          "Offer Negotiation Prep"
+        ]
+      }
+    ]
+  }
